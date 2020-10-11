@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="GameRoom.Games.Tetris.Tetri_manual_frame"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GameRoom.Games.Tetris"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Height="646" Width="1060">
+
+        <Grid Margin="0,0,0,0" HorizontalAlignment="Center" Height="636" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0" Text="Instrukcja" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="663" Height="160" FontSize="48" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Right" Height="95" Margin="0,0,0,0" Grid.Row="1" Text="W lewo" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Right" Height="95" Margin="0,0,0,0" Grid.Row="2" Text="W prawo" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Right" Height="95" Margin="0,0,0,0" Grid.Row="3" Text="W dół (o jeden blok)" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Right" Height="95" Margin="0,0,0,0" Grid.Row="4" Text="W dół (do końca)" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Right" Height="95" Margin="0,0,0,0" Grid.Row="5" Text="Obrót" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36"/>
+
+
+            <TextBlock HorizontalAlignment="Center" Height="95" Margin="0,0,0,0" Grid.Row="1" Grid.Column="1" Text="Strzałka w lewo / swipe left" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Height="95" Margin="0,0,0,0" Grid.Row="2" Grid.Column="1" Text="Strzałka w prawo / swipe right" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Height="95" Margin="0,0,0,0" Grid.Row="3" Grid.Column="1" Text="Strzałka w dół / tap" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Height="95" Margin="0,0,0,0" Grid.Row="4" Grid.Column="1" Text="S / swipe down" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Height="95" Margin="0,0,0,0" Grid.Row="5" Grid.Column="1" Text="A / swipe up" TextWrapping="Wrap" VerticalAlignment="Center" Width="340" FontSize="36" TextAlignment="Center"/>
+
+        </Grid>
+    </ScrollViewer>
+</Page>
