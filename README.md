@@ -2,6 +2,8 @@
 ## Opis 
 Implementacja dwóch klasycznych gier: tetrisa i kółko i krzyżyk
 
+Aplikacja posiada możliwość zapisywania wyników w grze tetris
+
 ## Zrzuty ekranu
 
 ![Menu główne](Screenshots/menu.jpg)
